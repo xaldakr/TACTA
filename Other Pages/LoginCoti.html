@@ -91,7 +91,7 @@
     <main>
       <!--Canvas-->
       <div
-        class="offcanvas offcanvas-bottom w-50 end-0 position-absolute bgblack txtlgray h-75 border border-3 border-black"
+        class="offcanvas offcanvas-bottom col-md-6 offset-md-6 end-0 position-absolute bgblack txtlgray h-75 border border-3 border-black"
         tabindex="-1"
         id="offcanvasBottom"
         aria-labelledby="offcanvasBottomLabel"
@@ -114,7 +114,13 @@
             class="row justify-content-start align-items-center g-2 bgpurple px-3 py-4 d"
           >
             <div class="col-xl-3">
-              <a class="icon-link ms-0 me-0" href="#"
+              <a
+                class="icon-link ms-0 me-0"
+                href="#"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offchat"
+                aria-controls="offcanvasBottom"
                 ><img
                   src="../media/Pfp2.png"
                   alt=""
@@ -239,6 +245,109 @@
         <!--Canvas Body-->
       </div>
       <!--Canvas-->
+      <!--Canvas2-->
+      <div
+        class="offcanvas offcanvas-bottom col-md-6 offset-md-6 end-0 position-absolute bgpurple txtlgray h-75 border border-3 border-black"
+        tabindex="-1"
+        id="offchat"
+        aria-labelledby="offcanvasBottomLabel"
+      >
+        <div
+          class="offcanvas-header justify-content-start align-items-center g-2 bgviolet px-0 py-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasBottom"
+          aria-controls="offcanvasBottom"
+        >
+          <div
+            class="row justify-content-start align-items-center g-2 bgviolet px-0 py-0 d w-100"
+          >
+            <div class="col-xl-3">
+              <a class="icon-link ms-0 me-0" href="#"
+                ><img
+                  src="../media/Pfp2.png"
+                  alt=""
+                  class="rounded-circle ms-lg-5 me-0"
+                  style="height: 5em; width: 5em"
+              /></a>
+            </div>
+            <div class="align-self-center col-xl-7">
+              <h6 class="subtitle ms-auto">John Smith</h6>
+              <p class="ms-auto">Gerente de Lorem Ipsum</p>
+            </div>
+            <div class="col-xl-2 align-self-end h-25 text-end">
+              <p>8:45pm</p>
+            </div>
+          </div>
+        </div>
+        <!--Canvas2 Body-->
+        <div class="offcanvas-body mx-0 my-0 px-0 py-0 bgpurple">
+          <!--Chat2 Row1-->
+          <div
+            class="row justify-content-start align-items-center g-2 px-3 py-4 d"
+          >
+            <div class="col-lg-8">
+              <div class="bgviolet txtwhite py-3 px-3">
+                <p class="subsub">
+                  In hac habitasse platea dictumst. Morbi viverra, nisi sed
+                  convallis gravida, enim neque efficitur eros, a porttitor
+                  nulla neque faucibus nisl. In libero purus, elementum ut erat
+                  eget, sagittis sollicitudin neque.
+                </p>
+              </div>
+              <div class="align-self-start h-25 text-start txtblack">
+                <p class="nnn">8:45pm</p>
+              </div>
+            </div>
+          </div>
+          <!--Chat2 Row2-->
+          <div
+            class="row justify-content-end align-items-center g-2 px-3 py-4 d"
+          >
+            <div class="col-lg-8">
+              <div class="bgwhite txtblack py-3 px-3 text-end">
+                <p class="subsub">
+                  In nibh ligula, faucibus ac nisl ut, varius interdum elit.
+                  Pellentesque habitant morbi tristique senectus et netus et
+                  malesuada fames ac turpis egestas. Vestibulum tincidunt.
+                </p>
+              </div>
+              <div class="align-self-start h-25 text-end txtblack">
+                <p class="nnn">8:45pm</p>
+              </div>
+            </div>
+          </div>
+          <!--Chat2 TXT-->
+          <div
+            class="row justify-content-start align-items-center g-2 bgpurple px-0 py-0 position-fixed fixed-bottom col-md-6 offset-md-6 h-25"
+          >
+            <div
+              class="input-group h-100 rounded-0 border-0 bgwhite position-relative"
+            >
+              <textarea
+                class="form-control h-100 rounded-0 border-0 bgwhite position-relative"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+              <div class="input-group-append align-self-end mx-0 rounded-0">
+                <i class="bi bi-send title btn btn-outline-dark"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div class="row h-25"></div>
+        <!--Canvas2 Body-->
+      </div>
+      <!--Canvas2-->
+      <div
+        class="row justify-content-center align-items-center g-2"
+        style="height: 11em"
+      ></div>
+      <div class="row justify-content-center align-items-center g-2">
+        <h1 class="txtwhite">a</h1>
+      </div>
     </main>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
