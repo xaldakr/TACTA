@@ -26,3 +26,10 @@
 .mwid {
   max-width: 100%;
 }
+.giantimg {
+  height: 19em;
+  width: 19em;
+}
+.gigatitle {
+  font-size: 9em;
+}
