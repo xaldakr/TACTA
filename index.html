@@ -30,14 +30,24 @@
             color: #C0C0DD;
             text-decoration: underline;
             --bs-navbar-active-color: white;
-        }
-        .nav-link:hover, .navbar-brand:hover {
+      }
+      .nav-link:hover, .navbar-brand:hover {
             color: white;
-        }
-        .navbar-brand {
+      }
+      .navbar-brand {
             color: #C0C0DD;
             text-decoration: underline;
-        }
+      }
+      .circulo {
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+      }
+      .imgCirculo{
+        width: 170px;
+        height: 170px;
+        border-radius: 50%;
+      }
     </style>
   </head>
 
@@ -47,7 +57,7 @@
             <div class="container-fluid ">
                 <a class="navbar-brand" href="#">Registrarte</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon" style="background-color: #51518b;"></span>
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                 <ul class="navbar-nav">
@@ -56,23 +66,23 @@
                         Idioma
                       </a>
                       <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Ingles</a></li>
-                        <li><a class="dropdown-item" href="#">Frances</a></li>
-                        <li><a class="dropdown-item" href="#">Portugues</a></li>
+                        <li><a class="dropdown-item" href="#">Inglés</a></li>
+                        <li><a class="dropdown-item" href="#">Francés</a></li>
+                        <li><a class="dropdown-item" href="#">Portugués</a></li>
                       </ul>
                     </li>
                   <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#">Contacto</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre nosotros</a>
+                    <a class="nav-link" href="#about-us">Sobre nosotros</a>
                   </li>
                 </ul>
               </div>
             </div>
         </nav>
 
-      <div class="container-fluid mt-5">
+      <div class="container-fluid mt-5" id="sign-in">
         <div class="row">
           <div class="col-5 row justify-content-center mb-10">
             <div class="card bg-dark text-white">
@@ -185,7 +195,7 @@
           id="carouselExampleCaptions2"
           style="background-color: #393962"
         >
-          <h1 class="text-center mt-5 mb-4" style="color: white">
+          <h1 class="text-center mt-5 mb-4" style="color: #E3DDEB">
             Ofertas Más Recientes
           </h1>
           <div class="carousel-indicators">
@@ -575,7 +585,7 @@
         />
       </div>
       <!-- Sobre nosotros -->
-      <div class="container-fluid" style="background-color: #c0c0dd">
+      <div class="container-fluid align-items-center" style="background-color: #c0c0dd" id="about-us">
         <div
           class="shadow-lg p-5 mb-5 bg-body rounded"
           style="background-color: #c0c0dd"
@@ -685,27 +695,270 @@
 
         <!-- Historia de Tacta -->
         <div class="container mt-5">
-          <h1 class="text-center p-5"><b>Historia de Tacta</b></h1>
-          <div class="mb-5 row">
-            <label for="staticEmail" class="col-sm-2 col-form-label text-end"
-              >Email</label
-            >
-            <div class="col-sm-8">
-              <input
-                type="text"
-                readonly
-                class="form-control-plaintext border text-center"
-                id="staticEmail"
-                value=" Lorem ipsum et sitamet dolem et seram no se que mas que mas sigue en un lorem ipsum. Proin in ligula nisl. Donec ut eros eleifend lorem aliquam dictum et sed tortor.
-                      Fusce ac tortor eget dui tincidunt interdum. Integer ut diam venenatis, porta nulla
-                      a, rutrum sem. Sed ut iaculis metus. Suspendisse nunc risus, tempus non mi
-                      tristique, rutrum laoreet nulla. Cras sed urna varius, maximus ante et, vestibulum
-                      enim."
-              />
+          <div class="container">
+            <h1 class="text-center p-5"><b>Historia de Tacta</b></h1>
+            <ul class="list-group gap-5">
+              <li class="list-group-item d-flex justify-content-between align-items-center rounded-pill" style="background-color: #5050B9; color: white;">
+                <span class="circulo" style="background-color: #E3DDEB; color: #07070e; "><h1 class="circulo text-center">1</h1></span>
+                <b class="text-center">
+                  Lorem ipsum et sitamet dolem et
+                  seram no se que mas que mas sigue en un lorem ipsum. Proin
+                  in ligula nisl. Donec ut eros <br> 
+                  eleifend lorem aliquam dictum
+                  et sed tortor. Fusce ac tortor eget dui tincidunt interdum.
+                  Integer ut diam venenatis, porta nulla a, rutrum sem.
+                </b>  
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center rounded-pill" style="background-color: #5050B9; color: white;">
+                <span class="circulo"  style="background-color: #E3DDEB; color: #07070e;"><h1 class="circulo text-center" >2</h1></span>
+                <b class="text-center">
+                  Lorem ipsum et sitamet dolem et
+                  seram no se que mas que mas sigue en un lorem ipsum. Proin
+                  in ligula nisl. Donec ut eros <br> 
+                  eleifend lorem aliquam dictum
+                  et sed tortor. Fusce ac tortor eget dui tincidunt interdum.
+                  Integer ut diam venenatis, porta nulla a, rutrum sem.
+                </b> 
+              </li>
+              <li class="list-group-item d-flex justify-content-between align-items-center rounded-pill" style="background-color: #5050B9; color: white;">
+                <span class="circulo" style="background-color: #E3DDEB; color: #07070e;"><h1 class="circulo text-center">3</h1></span>
+                <b class="text-center">
+                  Lorem ipsum et sitamet dolem et
+                  seram no se que mas que mas sigue en un lorem ipsum. Proin
+                  in ligula nisl. Donec ut eros <br> 
+                  eleifend lorem aliquam dictum
+                  et sed tortor. Fusce ac tortor eget dui tincidunt interdum.
+                  Integer ut diam venenatis, porta nulla a, rutrum sem.
+                </b> 
+              </li>
+            </ul>
+          </div>
+        </div>
+    
+        <!-- Comunidad -->
+          <div class="container">
+            <h1 class="text-center p-5"><b>Comunidad</b></h1>
+            <div class="row align-items-center" style="right: auto;">
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                  <div class="card shadow rounded-5" style="width: 20rem; width: 395px; height: 400px;">
+                    <div class="card-body text-center rounded-5" style="background-color: #5050B9; color: white;">
+                      <h5 class="mb-4">Nombre</h5>
+                      <img src="./media/Pfp1.png" class="card-img-top imgCirculo mb-4" alt="...">
+                      <h5 class="card-title mb-4">Fundador</h5>
+                      <h6><b class="card-text">Lorem ipsum et sitamet dolem et
+                        seram no se que mas que mas sigue en un lorem ipsum. Proin
+                        in ligula nisl. Donec ut eros <br> 
+                        eleifend lorem aliquam dictum
+                        et sed tortor.</b></h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                  <div class="card shadow rounded-5" style="width: 20rem; width: 400px; height: 400px;">
+                    <div class="card-body text-center rounded-5" style="background-color: #5050B9; color: white;">
+                      <h5 class="mb-4">Nombre</h5>
+                      <img src="./media/ivonne.png" class="card-img-top imgCirculo mb-4" alt="...">
+                      <h5 class="card-title mb-4">Colaborador</h5>
+                      <h6><b class="card-text">Lorem ipsum et sitamet dolem et
+                        seram no se que mas que mas sigue en un lorem ipsum. Proin
+                        in ligula nisl. Donec ut eros <br> 
+                        eleifend lorem aliquam dictum
+                        et sed tortor.</b></h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
+                  <div class="card shadow rounded-5" style="width: 20rem; width: 400px; height: 400px;">
+                    <div class="card-body text-center rounded-5" style="background-color: #5050B9; color: white;">
+                      <h5 class="mb-4">Nombre</h5>
+                      <img src="./media/lorena.png" class="card-img-top imgCirculo mb-4" alt="...">
+                      <h5 class="card-title mb-4">Colaborador</h5>
+                      <h6><b class="card-text">Lorem ipsum et sitamet dolem et
+                        seram no se que mas que mas sigue en un lorem ipsum. Proin
+                        in ligula nisl. Donec ut eros <br> 
+                        eleifend lorem aliquam dictum
+                        et sed tortor.</b></h6>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="row justify-content-md-center" style="margin-top: 2%; padding-top: 2%;">
+              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
+                <div class="card shadow rounded-5" style="width: 20rem; width: 400px; height: 400px;">
+                  <div class="card-body text-center rounded-5" style="background-color: #5050B9; color: white;">
+                    <h5 class="mb-4">Nombre</h5>
+                    <img src="./media/oscar.png" class="card-img-top imgCirculo mb-4" alt="...">
+                    <h5 class="card-title mb-4">Colaborador</h5>
+                    <h6><b class="card-text">Lorem ipsum et sitamet dolem et
+                      seram no se que mas que mas sigue en un lorem ipsum. Proin
+                      in ligula nisl. Donec ut eros <br> 
+                      eleifend lorem aliquam dictum
+                      et sed tortor.</b></h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
+                <div class="card shadow rounded-5" style="width: 20rem; width: 400px; height: 400px;">
+                  <div class="card-body text-center rounded-5" style="background-color: #5050B9; color: white;">
+                    <h5 class="mb-4">Nombre</h5>
+                    <img src="./media/jonathan.png" class="card-img-top imgCirculo mb-4" alt="...">
+                    <h5 class="card-title mb-4">Colaborador</h5>
+                    <h6><b class="card-text">Lorem ipsum et sitamet dolem et
+                      seram no se que mas que mas sigue en un lorem ipsum. Proin
+                      in ligula nisl. Donec ut eros <br> 
+                      eleifend lorem aliquam dictum
+                      et sed tortor.</b></h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <!-- ConTACTAnos -->
+          <h1 class="text-center p-4 m-4" id="contactanos"><b>ConTACTAnos</b></h1>
+          <div  style="position: relative; padding-bottom: 35%;">
+            <iframe  style="margin: 0 auto; display: block; border: 9px solid #07070e; border-radius: 10px 10px 10px 10px;  position: absolute; top: 0; left: 13%; width: 75%; height: 75%;" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30973.53105758067!2d-89.56271759548858!3d13.976966504620695!2m3!1f0!2f0!3f
+            0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62e62036825a69%3A0xec68b49f92513893!2sUNICAES%20Santa%20Ana!5e0!3m2!1spt-BR!2ssv!4v1685758955225!5m2!1spt-BR!2ssv" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <h5 class="text-center p-5 m-auto"><b>
+            Contacto: Tel. 503 601-2323 / cel. 503 7373-7878 <br>
+            E-Mail: contacto@tacta.com.sv <br>
+            Dirección: Av. Independencia Sur #5-b San Salvador.</b></h5>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="container-fluid text-center text-lg-center bgblack mt-3">
+      <footer>
+        <div class="container-fluid p-1">
+          <div class="row bgvioler">
+            <div class="col-4 text-white">
+              <div class="row">
+                <div class="col">
+                  <h1 class="text-center">Descripcion desarrollador</h1>
+                </div>
+              </div>
+              <div class="row p-2">
+                <div class="col-12 p-4 ">
+                  <div class="row">
+                    <h4 class="text-center">&copy; Copyright</h4>
+                  </div>
+                  <div class="row">
+                    <h5>
+                      Avila Posada, Xavier Alexander
+                    </h5>
+                  </div>
+                  <div class="row">
+                    <h5>
+                      Durán Diaz, Ivonne Esmeralda
+                    </h5>
+                  </div>
+                  <div class="row">
+                    <h5>
+                      Medina Montero, Laura Lorena
+                    </h5>
+                  </div>
+                  <div class="row">
+                    <h5>
+                      Portillo Cerón, Oscar Ernesto
+                    </h5>
+                  </div>
+                  <div class="row">
+                    <h5>
+                      Villanueva Alvarez, Jhonatan Uziel
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4 p-1">
+              <div class="row p-2">
+                <div class="col-10">
+                  <div class="row p-2">
+                    <div class="col-3">
+                      <a href="#">
+                        <img src="../media/facebook-4-128.png" height="100px">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-10">
+                  <div class="row p-2">
+                    <div class="col-3">
+                      <a href="#">
+                        <img src="../media/twitter-4-128.png" height="100px">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-10">
+                  <div class="row p-2">
+                    <div class="col-3">
+                      <a href="#">
+                        <img src="../media/instagram-4-128.png" height="100px">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="row">
+                <div class="col-6 mt-4">
+                  <div class="row p-2">
+                    <a href="../index.html" class="text-white">Inicio</a>
+                  </div>
+                  <div class="row p-2">
+                    <a href="../index.html#about-us" class="text-white">Sobre nosotros</a>
+                  </div>
+                  <div class="row p-2">
+                    <a href="./index.html" class="text-white">Logout</a>
+                  </div>
+                  <div class="row p-2">
+                    <a href="../index.html#sign-in" class="text-white">Sign in</a>
+                  </div>
+                  <div class="row p-2">
+                    <a href="./index.html" class="text-white">Register</a>
+                  </div>
+                  <div class="row p-2">
+                    <a href="./LoginEmpresa/pagina.html#misOfertas" class="text-white">Ofertas</a>
+                  </div>
+                </div>
+                <div class="col-6 mt-4">
+                  <div class="row p-2">
+                    <a href="./OtherPages/PerfilCoti.html" class="text-white">Página Cotizante</a>
+                  </div>
+                  <div class="row p-2">
+                    <a href="./index.html#contactanos" class="text-white">ConTACTAnos</a>
+                  </div>
+                  <div class="row p-2">
+                    <a href="./OtherPages/PerfilCoti.html" class="text-white">Perfil Cotizante</a>
+                  </div>
+                  <div class="row p-2">
+                    <a href="./LoginEmpresa/pagina.html" class="text-white">Perfil Empresa</a>
+                  </div>
+                  <div class="row p-2">
+                    <a href="./OtherPages/LoginCoti.html#ofertasAplicadas" class="text-white">Datos oferta</a>
+                  </div>
+                  <div class="row p-2">
+                    <a href="./LoginEmpresa/Editar.html#listaCotizantes" class="text-white">Lista Cotizantes</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-4 text-white mb-4">
+                <div class="col">
+                  <label for="sugerencias" class="form-label">Sugerencias:</label>
+                  <div class="input-group">
+                    <textarea id="sugerencias" cols="50" rows="2"></textarea>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </footer>
     </div>
 
     <!-- Script -->
