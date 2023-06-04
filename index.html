@@ -15,6 +15,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
+    <link rel="stylesheet" href="./css/colors.css">
     <script
       src="https://kit.fontawesome.com/51226aee0a.js"
       crossorigin="anonymous"
@@ -55,7 +56,7 @@
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg" style="color: white;">
             <div class="container-fluid ">
-                <a class="navbar-brand" href="#">Registrarte</a>
+                <a class="navbar-brand" href="./OtherPages/registrarse.html">Registrarte</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon" style="background-color: #51518b;"></span>
               </button>
@@ -84,7 +85,7 @@
 
       <div class="container-fluid mt-5" id="sign-in">
         <div class="row">
-          <div class="col-5 row justify-content-center mb-10">
+          <div class="col-6 row justify-content-center mb-10">
             <div class="card bg-dark text-white">
               <img
                 src="./media/fondoTacta.png"
@@ -158,7 +159,7 @@
                         </div>
                       </div>
                       <div class="col">
-                        <a href="" style="color: #d2d2d0"
+                        <a href="./OtherPages/recuperacion.html" style="color: #d2d2d0"
                           >¿Olvidaste tu contraseña?</a
                         >
                       </div>
@@ -177,14 +178,8 @@
               </div>
             </div>
           </div>
-          <div class="col-5">
-            <img
-              src="./media/principalCompu.png"
-              class="mx-auto d-block"
-              alt=""
-              width="150%"
-              height="100%"
-            />
+          <div class="col-6" style="background-image: url(./media/principalCompu.png);">
+            
           </div>
         </div>
       </div>
@@ -639,56 +634,32 @@
         <div class="container">
           <h1 class="text-center"><b>Nuestro Valores</b></h1>
           <div class="row mt-5">
-            <div class="col-4">
-              <div class="card bg-dark text-white">
-                <img
-                  src="./media/fondoTacta.png"
-                  alt=""
-                  width="95%"
-                  height="10%"
-                />
-                <div class="card-img-overlay p-3">
+            <div class="col-md-4">
+              <div class="card bg-dark text-white m-4">
+                <div class="card-body p-3 gradiente-azul">
                   <h3 class="text-center p-4">Visión</h3>
                   <p>
                     Creemos en el trato personalizado y en relaciones de
                     negocios a largo plazo. Lorem ipsum et sitamet dolem et
-                    seram no se que mas que mas sigue en un lorem ipsum. Proin
-                    in ligula nisl. Donec ut eros eleifend lorem aliquam dictum
-                    et sed tortor. Fusce ac tortor eget dui tincidunt interdum.
-                    Integer ut diam venenatis, porta nulla a, rutrum sem. Sed ut
-                    iaculis metus. Suspendisse nunc risus, tempus non mi
-                    tristique, rutrum laoreet nulla. Cras sed urna varius,
-                    maximus ante et, vestibulum enim.
+                    seram no se que mas que mas sigue en un lorem ipsum.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-4">
-              <div class="card bg-dark text-white">
-                <img
-                  src="./media/fondoTacta.png"
-                  alt=""
-                  width="95%"
-                  height="10%"
-                />
-                <div class="card-img-overlay">
+            <div class="col-md-4">
+              <div class="card bg-dark text-white m-4">
+                <div class="card-body gradiente-azul">
                   <h3 class="text-center p-4">Misión</h3>
                   <p>
                     Creemos en el trato personalizado y en relaciones de
                     negocios a largo plazo. Lorem ipsum et sitamet dolem et
-                    seram no se que mas que mas sigue en un lorem ipsum. Proin
-                    in ligula nisl. Donec ut eros eleifend lorem aliquam dictum
-                    et sed tortor. Fusce ac tortor eget dui tincidunt interdum.
-                    Integer ut diam venenatis, porta nulla a, rutrum sem. Sed ut
-                    iaculis metus. Suspendisse nunc risus, tempus non mi
-                    tristique, rutrum laoreet nulla. Cras sed urna varius,
-                    maximus ante et, vestibulum enim.
+                    seram no se que mas que mas sigue en un lorem ipsum.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-4">
-              <img src="./media/nuestrosValores.png" alt="" />
+            <div class="col-md-4">
+              <img src="./media/nuestrosValores.png" alt="" style="height: 400px;"/>
             </div>
           </div>
         </div>
@@ -698,38 +669,56 @@
           <div class="container">
             <h1 class="text-center p-5"><b>Historia de Tacta</b></h1>
             <ul class="list-group gap-5">
-              <li class="list-group-item d-flex justify-content-between align-items-center rounded-pill" style="background-color: #5050B9; color: white;">
-                <span class="circulo" style="background-color: #E3DDEB; color: #07070e; "><h1 class="circulo text-center">1</h1></span>
-                <b class="text-center">
-                  Lorem ipsum et sitamet dolem et
-                  seram no se que mas que mas sigue en un lorem ipsum. Proin
-                  in ligula nisl. Donec ut eros <br> 
-                  eleifend lorem aliquam dictum
-                  et sed tortor. Fusce ac tortor eget dui tincidunt interdum.
-                  Integer ut diam venenatis, porta nulla a, rutrum sem.
-                </b>  
+              <li class="list-group-item d-flex justify-content-between align-items-center rounded-pill" style="background-color: #5050B9;">
+                <div class="row justify-content-center">
+                  <div class="col-sm-4 col-lg-1 circulo bgblanco p-3">
+                    <h1 class="text-center">1</h1>
+                  </div>
+                  <div class="col-sm-4 col-lg-11 text-white">
+                    <b class="text-center">
+                      Lorem ipsum et sitamet dolem et
+                      seram no se que mas que mas sigue en un lorem ipsum. Proin
+                      in ligula nisl. Donec ut eros <br> 
+                      eleifend lorem aliquam dictum
+                      et sed tortor. Fusce ac tortor eget dui tincidunt interdum.
+                      Integer ut diam venenatis, porta nulla a, rutrum sem.
+                    </b>  
+                  </div>
+                </div>
               </li>
-              <li class="list-group-item d-flex justify-content-between align-items-center rounded-pill" style="background-color: #5050B9; color: white;">
-                <span class="circulo"  style="background-color: #E3DDEB; color: #07070e;"><h1 class="circulo text-center" >2</h1></span>
-                <b class="text-center">
-                  Lorem ipsum et sitamet dolem et
-                  seram no se que mas que mas sigue en un lorem ipsum. Proin
-                  in ligula nisl. Donec ut eros <br> 
-                  eleifend lorem aliquam dictum
-                  et sed tortor. Fusce ac tortor eget dui tincidunt interdum.
-                  Integer ut diam venenatis, porta nulla a, rutrum sem.
-                </b> 
+              <li class="list-group-item d-flex justify-content-between align-items-center rounded-pill" style="background-color: #5050B9;">
+                <div class="row justify-content-center">
+                  <div class="col-sm-4 col-lg-1 circulo bgblanco p-3">
+                    <h1 class="text-center">2</h1>
+                  </div>
+                  <div class="col-sm-4 col-lg-11 text-white">
+                    <b class="text-center">
+                      Lorem ipsum et sitamet dolem et
+                      seram no se que mas que mas sigue en un lorem ipsum. Proin
+                      in ligula nisl. Donec ut eros <br> 
+                      eleifend lorem aliquam dictum
+                      et sed tortor. Fusce ac tortor eget dui tincidunt interdum.
+                      Integer ut diam venenatis, porta nulla a, rutrum sem.
+                    </b>  
+                  </div>
+                </div>
               </li>
-              <li class="list-group-item d-flex justify-content-between align-items-center rounded-pill" style="background-color: #5050B9; color: white;">
-                <span class="circulo" style="background-color: #E3DDEB; color: #07070e;"><h1 class="circulo text-center">3</h1></span>
-                <b class="text-center">
-                  Lorem ipsum et sitamet dolem et
-                  seram no se que mas que mas sigue en un lorem ipsum. Proin
-                  in ligula nisl. Donec ut eros <br> 
-                  eleifend lorem aliquam dictum
-                  et sed tortor. Fusce ac tortor eget dui tincidunt interdum.
-                  Integer ut diam venenatis, porta nulla a, rutrum sem.
-                </b> 
+              <li class="list-group-item d-flex justify-content-between align-items-center rounded-pill" style="background-color: #5050B9;">
+                <div class="row justify-content-center">
+                  <div class="col-sm-4 col-lg-1 circulo bgblanco p-3">
+                    <h1 class="text-center">3</h1>
+                  </div>
+                  <div class="col-sm-4 col-lg-11 text-white">
+                    <b class="text-center">
+                      Lorem ipsum et sitamet dolem et
+                      seram no se que mas que mas sigue en un lorem ipsum. Proin
+                      in ligula nisl. Donec ut eros <br> 
+                      eleifend lorem aliquam dictum
+                      et sed tortor. Fusce ac tortor eget dui tincidunt interdum.
+                      Integer ut diam venenatis, porta nulla a, rutrum sem.
+                    </b>  
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
@@ -740,7 +729,7 @@
             <h1 class="text-center p-5"><b>Comunidad</b></h1>
             <div class="row align-items-center" style="right: auto;">
                 <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
-                  <div class="card shadow rounded-5" style="width: 20rem; width: 395px; height: 400px;">
+                  <div class="card shadow rounded-5" >
                     <div class="card-body text-center rounded-5" style="background-color: #5050B9; color: white;">
                       <h5 class="mb-4">Nombre</h5>
                       <img src="./media/Pfp1.png" class="card-img-top imgCirculo mb-4" alt="...">
@@ -754,7 +743,7 @@
                   </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
-                  <div class="card shadow rounded-5" style="width: 20rem; width: 400px; height: 400px;">
+                  <div class="card shadow rounded-5" >
                     <div class="card-body text-center rounded-5" style="background-color: #5050B9; color: white;">
                       <h5 class="mb-4">Nombre</h5>
                       <img src="./media/ivonne.png" class="card-img-top imgCirculo mb-4" alt="...">
@@ -768,7 +757,7 @@
                   </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-3">
-                  <div class="card shadow rounded-5" style="width: 20rem; width: 400px; height: 400px;">
+                  <div class="card shadow rounded-5">
                     <div class="card-body text-center rounded-5" style="background-color: #5050B9; color: white;">
                       <h5 class="mb-4">Nombre</h5>
                       <img src="./media/lorena.png" class="card-img-top imgCirculo mb-4" alt="...">
@@ -784,7 +773,7 @@
             </div>
             <div class="row justify-content-md-center" style="margin-top: 2%; padding-top: 2%;">
               <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-                <div class="card shadow rounded-5" style="width: 20rem; width: 400px; height: 400px;">
+                <div class="card shadow rounded-5">
                   <div class="card-body text-center rounded-5" style="background-color: #5050B9; color: white;">
                     <h5 class="mb-4">Nombre</h5>
                     <img src="./media/oscar.png" class="card-img-top imgCirculo mb-4" alt="...">
@@ -798,7 +787,7 @@
                 </div>
               </div>
               <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4">
-                <div class="card shadow rounded-5" style="width: 20rem; width: 400px; height: 400px;">
+                <div class="card shadow rounded-5">
                   <div class="card-body text-center rounded-5" style="background-color: #5050B9; color: white;">
                     <h5 class="mb-4">Nombre</h5>
                     <img src="./media/jonathan.png" class="card-img-top imgCirculo mb-4" alt="...">
@@ -920,7 +909,7 @@
                     <a href="./index.html#sign-in" class="text-white">Sign in</a>
                   </div>
                   <div class="row p-2">
-                    <a href="./index.html" class="text-white">Register</a>
+                    <a href="./OtherPages/registrarse.html" class="text-white">Register</a>
                   </div>
                   <div class="row p-2">
                     <a href="./LoginEmpresa/pagina.html#misOfertas" class="text-white">Ofertas</a>

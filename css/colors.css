@@ -44,3 +44,9 @@
 .bglgraya {
   background-color: #c8c8c877;
 }
+.gradiente-azul{
+  background: linear-gradient(to right, #37375A, #171734);
+}
+.bgblanco {
+  background-color: white;
+}
